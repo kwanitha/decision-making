@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+    char sub[10];
+    printf("Enter subject name to find grade: ");
+    scanf("%s",sub);
+    int marks;
+    printf("Enter your marks: ");
+    scanf("%d",&marks);
+    if(marks>85&&marks<100)
+   { printf("\nGrade A");
+    printf(" in subject %s",sub);
+   } 
+   if(marks>70&&marks<84)
+    {printf("\nGrade B");
+    printf(" in subject %s",sub);
+    }
+   if(marks>55&&marks<69)
+    {printf("\nGrade C");
+    printf(" in subject %s",sub);
+    }
+ if(marks>40&&marks<54)
+   { printf("\nGrade D");
+    printf(" in subject %s",sub);}
+  if(marks<40)
+     {printf("\nGrade F");
+     printf(" in subject %s",sub);
+     }return 0;
+    
+}

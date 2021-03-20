@@ -1,2 +1,0 @@
-# decision-making
-kwanitha mycaptain
